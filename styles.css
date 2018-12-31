@@ -108,3 +108,17 @@ a{
     border-color: gray;
     background-color: rgb(243, 243, 243);
 }
+#horizontal-line{
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+    left: 0px;
+}
+#blue-block{
+    position: relative;
+    height: 3px;
+    width: 50px;
+    background-color: rgb(107, 107, 255);
+    left: 145px;
+}

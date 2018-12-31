@@ -122,3 +122,9 @@ a{
     background-color: rgb(107, 107, 255);
     left: 145px;
 }
+#num-results{
+    font-size: 10pt;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 160px;
+}

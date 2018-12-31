@@ -1,0 +1,78 @@
+.fixed-nav{
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+.fixed-nav-right{
+    float: right;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+#sign-in{
+    color: white;
+    padding: 7px 14px;
+    background-color: rgb(107, 107, 255);
+    border: solid;
+    border-width: 0px;
+    font-weight: 700;
+    border-radius: 2px;
+    border-color: white;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+.search-box{
+    width: 630px;
+    height: 43px;
+    border-radius: 30px;
+    border-color: rgb(209, 209, 209);
+    border-style: solid;
+    margin-left: 20px;
+    margin-top: 1px;
+    border-width: .5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: rgb(39, 39, 39);
+}
+.search-box:hover{
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fixed-nav div{
+    display: inline;
+}
+form{
+    display: inline-block;
+    margin-top: 0px;
+    vertical-align: middle;
+}
+.logo{
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#menu{
+    vertical-align: middle;
+    display: inline-block;
+    opacity: .6;
+}
+a{
+    text-decoration: none;
+}
+#magnifying-glass{
+    display: inline-block;
+    vertical-align: middle;
+    position: fixed;
+    top: 30px;
+    left: 740px;
+}
+#menu:hover{
+    opacity: 1;
+}
+#sign-in:hover{
+    box-shadow: 0px .5px 1px lightgray;
+}

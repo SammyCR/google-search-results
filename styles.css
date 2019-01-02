@@ -106,7 +106,7 @@ a{
     border-radius: 2px;
 }
 #tools:hover{
-    border-color: gray;
+    border-color: rgb(194, 194, 194);
     background-color: rgb(243, 243, 243);
 }
 #horizontal-line{

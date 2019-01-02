@@ -1,13 +1,13 @@
 .fixed-nav{
     position: sticky;
-    top: 0;
+    top: 0px;
     list-style-type: none;
-    margin: 20px 0 0 0;
-    padding: 0;
+    margin: 0px 0px;
+    padding: 0px 0px;
 }
 .fixed-nav-right{
     float: right;
-    margin-top: 8px;
+    margin-top: 22px;
     margin-right: 10px;
 }
 #sign-in{
@@ -33,7 +33,7 @@
     border-color: rgb(209, 209, 209);
     border-style: solid;
     margin-left: 20px;
-    margin-top: 1px;
+    margin-top: 13px;
     border-width: .5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
@@ -54,6 +54,7 @@ form{
     margin-left: 20px;
     display: inline-block;
     vertical-align: middle;
+    margin-top: 7px;
 }
 #menu{
     vertical-align: middle;
@@ -127,4 +128,116 @@ a{
     color: gray;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 160px;
+}
+#all-search-results{
+    margin-left: 160px;
+    width: 590px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.result-title{
+    color: rgb(0, 0, 209);
+    font-size: 14pt;
+    margin-bottom: 0;
+}
+.result-title:hover{
+    text-decoration: underline;
+}
+.url{
+    color: green;
+    font-size: 11pt;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.description{
+    font-size: 11pt;
+    margin-top: 0;
+}
+.date{
+    color: rgb(173, 173, 173);
+}
+.text-description{
+    color: gray;
+}
+.search-result{
+    margin-bottom: 30px;
+}
+.related-searches-div{
+    margin-left: 160px;
+    margin-top: 40px;
+}
+.related-searches-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.related-searches-list li{
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    margin-bottom: 7px;
+    font-weight: 700;
+}
+.related-searches-list a:hover{
+    text-decoration: underline;
+}
+#searches-related{
+    color: rgb(37, 37, 37);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+.related-searches-list .non-bold{
+    font-weight: 400;
+}
+.related-searches-list a{
+    color: rgb(0, 0, 170);
+}
+.more-results{
+    margin-left: 160px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.top-line{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(226, 226, 226);
+    top: 1535px;
+}
+.bottom-nav-top p, .bottom-nav a{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: rgb(100, 100, 100);
+}
+.bottom-nav-bottom li{
+    display: inline;
+    margin-right: 20px;
+}
+.bottom-nav-top{
+    margin-top: 5px;
+}
+.bottom-nav-top, .bottom-nav-bottom{
+    margin-left: 160px;
+}
+.bottom-nav{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 1536px;
+    left: 0px;
+    height: 70px;
+    background-color: rgb(241, 241, 241);
+}
+.bottom-nav ul{
+    margin-left: 0px;
+    padding: 0;
+    margin-bottom: 0;
+}
+.location{
+    color: rgb(58, 58, 58);
+    font-weight: 700;
+}
+.bottom-nav a:hover{
+    color: rgb(58, 58, 58);
 }
